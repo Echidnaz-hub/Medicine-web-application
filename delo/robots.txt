@@ -1,0 +1,6 @@
+User-agent:  * 
+Disallow: /admin/
+Allow: /admin/login.php$
+Allow: /admin/register.php$
+User-agent: YandexBot
+Disallow: /
