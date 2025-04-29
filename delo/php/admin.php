@@ -2,7 +2,7 @@
  if(empty($_COOKIE['user'])):
 ?>
 <div class="container py-3">
-<h1 class="text-center"><p class="text-white"><a class="text-white" href="index.php?page=on">Войдите</a>, чтобы увидеть личный кабинет</p></h1>
+<h1 class="text-center"><p class="text-white"><a class="text-white" href="index.php?page=on">Войдите</a> или<a class="text-white" href="index.php?page=registration"> зарегистрируйтесь</a>, чтобы увидеть личный кабинет</p></h1>
 </div>
 <?php else: ?>
 <p>
